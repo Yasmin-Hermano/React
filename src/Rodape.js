@@ -5,19 +5,14 @@ const Rodape = () => {
     require('./Rodape.css');
 
     return(
-    <div>
-
-    <div className='Rodape'> 
-        <ul>
-            <p> Hedenilson Charles</p>
-            <p>Dhandara Rafaela</p>
-            <p>Yasmin Hermano</p>
-            <p>Vinícius Gabriel</p>
-
-        </ul>
-    </div>
-    
-    </div>
+        <footer className="Rodape">
+            <ul>
+                <li>Hedenilson Charles</li>
+                <li>Dhandara Rafaela</li>
+                <li>Yasmin Hermano</li>
+                <li>Vinícius Gabriel</li>
+            </ul>
+        </footer>
     );
 
 

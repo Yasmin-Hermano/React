@@ -7,12 +7,12 @@ const Perguntas = ( props ) => {
 
     const perguntas = [
         {
-            imagem: "https://i.pinimg.com/originals/28/66/7d/28667da1038d1605f2a7a32b82f6b16b.jpg",
+            imagem: "https://blog.cobasi.com.br/wp-content/uploads/2018/11/gato-felicidade-lingua.jpg",
             texto:"1 - No mito português quantas vidas tem um gato?",
-            alternativaA:"-5 vidas",
-            alternativaB:"-7 vidas",
-            alternativaC:"-9 vidas",
-            alternativaD:"-2 vidas",
+            alternativaA:"5 vidas",
+            alternativaB:"7 vidas",
+            alternativaC:"9 vidas",
+            alternativaD:"2 vidas",
             correta:"",
 
         },
@@ -27,7 +27,7 @@ const Perguntas = ( props ) => {
 
         },
         {
-            imagem: "https://blog.cobasi.com.br/wp-content/uploads/2021/04/coletivo-de-caes-principal.jpg",
+            imagem: "https://fmbalneario.com.br/wp-content/uploads/2022/01/Cachorra-com-acessorios-de-verao-em-praia-de-Florianopolis-vira.jpeg",
             texto:"3 - Qual é o coletivo de cães?",
             alternativaA:"Matilha",
             alternativaB:"Rebanho",
@@ -37,7 +37,7 @@ const Perguntas = ( props ) => {
 
         },
         {
-            imagem: "https://th.bing.com/th/id/R.b48db10b04a739fb8c31ee468819610c?rik=p8hdvCtzB6Khtw&riu=http%3a%2f%2fbmf-usa.org%2fwp-content%2fuploads%2f2016%2f02%2fCarmen-Miranda-840x1024.jpg&ehk=WusR16x1VVWl41TeNfM37jsYojX65an6CLL10Qf5KdI%3d&risl=&pid=ImgRaw&r=0",
+            imagem: "https://claudia.abril.com.br/wp-content/uploads/2020/01/carmen-miranda-biografia-1.jpg",
             texto:"4 - Em que país nasceu Carmem Miranda?",
             alternativaA:"Itália",
             alternativaB:"Espanha",
@@ -47,92 +47,92 @@ const Perguntas = ( props ) => {
 
         },
         {
-            imagem: "https://aventurasnahistoria.uol.com.br/media/_versions/baralhomdmdm_widelg.png",
-            texto:"5 - Seguindo a sequência do baralho, qual carta vem depois do dez?",
-            alternativaA:"Valete",
-            alternativaB:"Rei",
-            alternativaC:"Rainha",
-            alternativaD:"Bobo do Corte",
+            imagem: "https://classic.exame.com/wp-content/uploads/2017/06/untitled-12.jpg?quality=70&strip=info&w=1024",
+            texto:"5 -  Qual a ordem de sucessão dos presidentes brasileiros?",
+            alternativaA:"Dilma Rousseff, Lula, Bolsonaro",
+            alternativaB:"Fernando Henrique, Itamar Franco, Lula",
+            alternativaC:"Dilma Rousseff, Michel Temer, Bolsonaro",
+            alternativaD:"Itamar Franco, Collor, Lula -Collor, Lula, Dilma Rousseff",
             correta:"",
 
         },
         {
-            imagem: "https://ehacks.com.br/wp-content/uploads/167/11-meme-duvida-e1518555087859.png",
+            imagem: "https://tribunapr.uol.com.br/wp-content/uploads/2020/03/03105249/nazare-confusa-970x550.jpg",
             texto:"6 - Em que parte do corpo se encontra a epiglote?",
-            alternativaA:"-Estomago",
-            alternativaB:"-Cabeça",
-            alternativaC:"-Mãos",
-            alternativaD:"-Boca",
+            alternativaA:"Estômago",
+            alternativaB:"Cabeça",
+            alternativaC:"Mãos",
+            alternativaD:"Boca",
             correta:"",
 
         },
         {
-            imagem: "https://www.diariodoaco.com.br/images/noticias/58898/mn_uFh28panela-com-agua-fervendo-cozinhar-cozinhando-1346778797784_615x300.jpg",
+            imagem: "https://i.pinimg.com/236x/fa/53/4e/fa534eb8c3e0cec185c37d1bd4d6ebd8.jpg",
             texto:"7 - A quantos graus Celsius a água precisa estar para começar a ferver?",
-            alternativaA:"",
-            alternativaB:"",
-            alternativaC:"",
-            alternativaD:"",
+            alternativaA:"0°",
+            alternativaB:"100°",
+            alternativaC:"30°",
+            alternativaD:"11°",
             correta:"",
 
         },
         {
-            imagem: "https://i0.statig.com.br/bancodeimagens/2q/zv/72/2qzv725d6ezxxhjvzwmk9bdzz.jpg",
+            imagem: "https://thumbs.gfycat.com/PhonyRichHorsefly-mobile.jpg",
             texto:"8 - Quantos noves tem de 0 a 100?",
-            alternativaA:"",
-            alternativaB:"",
-            alternativaC:"",
-            alternativaD:"",
+            alternativaA:"10",
+            alternativaB:"11",
+            alternativaC:"20",
+            alternativaD:"21",
             correta:"",
 
         },
         {
-            imagem: "https://www.state.gov/wp-content/uploads/2018/11/Russia-2499x1406.jpg",
+            imagem: "https://s1.static.brasilescola.uol.com.br/img/2018/03/catedral-de-sao-basilio.jpg",
             texto:"9 - Qual é a capital da Rússia?",
-            alternativaA:"",
-            alternativaB:"",
-            alternativaC:"",
-            alternativaD:"",
+            alternativaA:"São Petersburgo",
+            alternativaB:"Sóchi",
+            alternativaC:"Moscou",
+            alternativaD:"Cazã",
             correta:"",
 
         },{
-            imagem: "https://th.bing.com/th/id/OIP.muYjFkJ6-_1kz_HMnksHoQHaEZ?pid=ImgDet&rs=1",
+            imagem: "https://imageproxy.ifunny.co/crop:x-20,resize:640x,quality:90x75/images/0bdc40f8a0c0c002f0d5309737803ed26d5e451cca52171843c7d81872a4c3bf_1.jpg",
             texto:"10 - Em que estado brasileiro aconteceu a guerra de canudos?",
-            alternativaA:"",
-            alternativaB:"",
-            alternativaC:"",
-            alternativaD:"",
+            alternativaA:"Sergipe",
+            alternativaB:"Minas Gerais",
+            alternativaC:"Bahia",
+            alternativaD:"São Paulo",
             correta:"",
 
         },{
-            imagem: "https://th.bing.com/th/id/R.382149bddc33c660835fed930badf6bc?rik=bqE%2fWIV8K9jshA&riu=http%3a%2f%2f3.bp.blogspot.com%2f-jfMzHkGxB50%2fTs1VW6GOUvI%2fAAAAAAAAHMc%2f1T0UqU9PkUA%2fs1600%2ff_73356.jpg&ehk=IadPGLOYouF%2f1ZIsj%2bqoz6HpceFINznRsxleu5fat%2fM%3d&risl=&pid=ImgRaw&r=0",
-            texto:"11 - A cerveja Duff aparece em qual desenho?",
-            alternativaA:"",
-            alternativaB:"",
-            alternativaC:"",
-            alternativaD:"",
+            imagem: "https://statig0.akamaized.net/bancodeimagens/cu/fz/2f/cufz2f859fwnmu3m28e09xouc.jpg",
+            texto:"11 - Qual das alternativas contém apenas vacinas contra a covid-19? ",
+            alternativaA:"VIP/VOP e AstraZeneca ",
+            alternativaB:"CoronaVac e AstraZeneca",
+            alternativaC:" Rotavírus e CoronaVac",
+            alternativaD:"Pentavalente (DTPa) e Sputnik V",
             correta:"",
 
         },{
-            imagem: "https://th.bing.com/th/id/OIP.SzMSqbwgJgHTTBr5gYdwMwAAAA?pid=ImgDet&w=300&h=248&rs=1",
-            texto:"12 - Quantos pulmões um humano tem?",
-            alternativaA:"",
-            alternativaB:"",
-            alternativaC:"",
-            alternativaD:"",
+            imagem: "https://aws1.discourse-cdn.com/nubank/original/3X/4/7/47919cb5977ce20f31e5640ffafb7754583cdb42.jpeg",
+            texto:"12 - O que é Pix?",
+            alternativaA:"Meio de pagamento instantâneo criado pelo Banco Central do Brasil",
+            alternativaB:"Plano de investimento de baixo risco do Banco do Brasil",
+            alternativaC:"Forma de pagamento online",
+            alternativaD:"Produtos de investimento financeiro criados pelo Banco Central do Brasil",
             correta:"",
 
         },{
-            imagem: "https://www.meiahora.com.br/_midias/jpg/2019/02/09/trofeu_mundial-9622741.jpg",
-            texto:"13 - Qual dos clubes de futebol descritos a baixo, não possui o título Mundial de clubes?",
-            alternativaA:"",
-            alternativaB:"",
-            alternativaC:"",
-            alternativaD:"",
+            imagem: "https://i.pinimg.com/236x/0c/7f/90/0c7f90b3466785f3618ca3c7a4b6af23.jpg",
+            texto:"13 - Qual das alternativas contém apenas invenções criadas no Brasil?",
+            alternativaA:"Urna eletrônica, soro antiofídico e chuveiro elétrico",
+            alternativaB:"Lâmpada elétrica, chuveiro elétrico e internet -Telefone, internet e urna eletrónica",
+            alternativaC:"Facebook, automóvel e paraquedas",
+            alternativaD:"Urna eletrônica, soro antiofídico e paraquedas.",
             correta:"",
 
         },{
-            imagem: "https://static1.abc.es/media/tecnologia/2018/07/22/meme-kEsD--620x349@abc.jpg",
+            imagem: "https://www.vazamentos.info/wp-content/uploads/2019/06/Como-acabar-com-a-condensacao.jpg",
             texto:"14 - A condensação é a transição entre quais estados da matéria?",
             alternativaA:"",
             alternativaB:"",
@@ -141,12 +141,12 @@ const Perguntas = ( props ) => {
             correta:"",
 
         },{
-            imagem: "https://1.bp.blogspot.com/-WWvso_NZgXE/XlFww5amy_I/AAAAAAAAEeo/r6xMS22Z588GKzhAKEBQN7nPdnr2h_prACLcBGAsYHQ/s640/frases-sobre-empoderamento-feminino%2B%25283%2529.jpg",
-            texto:"15 - O dia internacional das mulheres é comemorado em qual mês?",
-            alternativaA:"Sample",
-            alternativaB:"Sample",
-            alternativaC:"Sample",
-            alternativaD:"Sample",
+            imagem: "https://www.defensoria.rs.def.br/upload/recortes/202003/05101833_66361_GD.png",
+            texto:"15 -  O Dia Internacional das Mulheres é comemorado em qual mês?",
+            alternativaA:"março",
+            alternativaB:"abril",
+            alternativaC:"outubro",
+            alternativaD:"maio",
             correta:"",
 
         },
@@ -161,17 +161,17 @@ const Perguntas = ( props ) => {
             <div className="BlocoImagemTexto">
                 
                 <br/>
-                <a>{perguntas[5].texto}</a>
+                <a>{perguntas[6].texto}</a>
                 <br/>
-                <img src={perguntas[4].imagem}/>
+                <img src={perguntas[6].imagem}/>
             </div>
             <div className="BlocoRespostasBotoes">
                 
                 <ul>
-                    <li>{perguntas[5].alternativaA}</li>
-                    <li>{perguntas[5].alternativaB}</li>
-                    <li>{perguntas[5].alternativaC}</li>
-                    <li>{perguntas[5].alternativaD}</li>
+                    <li>{perguntas[6].alternativaA}</li>
+                    <li>{perguntas[6].alternativaB}</li>
+                    <li>{perguntas[6].alternativaC}</li>
+                    <li>{perguntas[6 ].alternativaD}</li>
                 </ul>
 
 

@@ -1,6 +1,6 @@
 import React from "react";
 import Menu from "./Menu";
-import Perguntas from "./Perguntas";
+import Perguntas from "./Quiz";
 import Rodape from "./Rodape";
 
 const Inicio = () => {
@@ -15,6 +15,8 @@ const Inicio = () => {
 
             <div className="container">
 
+            <Perguntas/>
+            <Rodape/>
 
             </div>
 
@@ -24,3 +26,5 @@ const Inicio = () => {
 
 
 }
+
+export default Inicio;

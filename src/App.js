@@ -1,26 +1,35 @@
-import React from 'react';
+import React, {useState} from 'react';
 
-
+import Apresentacao from './Apresentacao';
 import Menu from './Menu';
-import Perguntas from './Perguntas';
 import Rodape from './Rodape';
-
 
 const App = () => {
 
-  require('./App.css');
+    require('./App.css');
 
-  
+    const [ tela, alteraTela ] = useState( null );
 
-  return(
+    if(tela == null) {
+        alteraTela(<Apresentacao alteraTela={alteraTela}/>);
+    }
 
-    <div> 
-      <Menu/>
-      <Perguntas/>
-      <Rodape/>
-    </div>
+    
 
-  );
+    return(
+
+        <div> 
+            <Menu/>
+
+
+            { tela }
+
+
+
+            <Rodape/>
+        </div>
+
+    );
 }
 
 export default App;
